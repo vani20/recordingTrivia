@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 709.731 sec <<< FAILURE! - in TestSuite
+test1(trivia.recordFinal)  Time elapsed: 709.364 sec  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Unable to create new remote session. desired capabilities = Capabilities [{app=/Users/vgoyal/Documents/QA-Work/swoo-qa-tools/recordingTrivia/resources/prod_swoo.apk, appWaitActivity=com.kryptolabs.android.speakerswire.ui.SplashActivity,com.kryptolabs.android.speakerswire.ui.*.*, platformName=Android, deviceName=emulator-5554}], required capabilities = Capabilities [{}]
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'adfgs-MBP', ip: '192.168.1.126', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.5', java.version: '1.8.0_172'
+Driver info: driver.version: AndroidDriver
+	at trivia.recordFinal.test1(recordFinal.java:77)
+
